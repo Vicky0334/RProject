@@ -2,10 +2,10 @@ import React from 'react'
 
 const NavRight = () => {
   return (
-    <div>
-<a href="#">Work</a>
-<a href="#">About</a>
-<a href="#" className=''>Contact</a>
+    <div className='flex gap-10'>
+      <a href="#" className='text-lg' >Work</a>
+      <a href="#" className='text-lg' >About</a>
+      <a href="#" className='text-lg'>Contact</a>
     </div>
   )
 }
